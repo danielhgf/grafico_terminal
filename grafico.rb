@@ -49,10 +49,6 @@ loop do
     grafico.criarGrafico
     
     break
-  
-  else
-    logger.erro
-    system "clear"
   end
 
 end
