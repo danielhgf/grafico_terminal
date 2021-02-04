@@ -14,6 +14,7 @@ class Grafico
   def criarGrafico
     grafico_pizza = TTY::Pie.new(data: @data, radius: 6)
     puts grafico_pizza
+    puts
   end
 
 end
@@ -44,11 +45,14 @@ loop do
   if fim
     system 'clear'
     logger.success 'Grafico Criado'
+    puts
 
     grafico = Grafico.new(data)
     grafico.criarGrafico
-    
     break
+    
+  else
+    system 'clear'
   end
 
 end
