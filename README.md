@@ -9,5 +9,5 @@ Clone o projeto utilizando <blockquote>git clone https://github.com/Snoobd/grafi
 Você precisa ter instalado em sua máquina o ruby e o pacote <a href="https://bundler.io/">bundle</a>
 
 <h4>Rodandando o gráfico</h4>
-Entre na pasta que foi clonada e rode o comando <blockquote>ruby grafico.rb</blockquote>
+Entre na pasta que foi clonada e rode o comando <blockquote>bundle install</blockquote> e logo em seguida o comando <blockquote>ruby grafico.rb</blockquote>
 
