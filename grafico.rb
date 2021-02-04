@@ -12,7 +12,7 @@ class Grafico
   end
 
   def criarGrafico
-    grafico_pizza = TTY::Pie.new(data: @data, radius: 4)
+    grafico_pizza = TTY::Pie.new(data: @data, radius: 6)
     puts grafico_pizza
   end
 
